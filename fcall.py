@@ -1,12 +1,16 @@
-def func1():
-    return 42
+my_list = [50, 49, 1]
 
 
-def my_function(var1, var2):
-    return var1*var2
+my_list.sort()
 
 
-print(my_function(5, 6))
+print(my_list)
 
 
-print(func1())
+print(sum(my_list))
+
+
+my_tuple = ("2",)
+
+
+print(my_tuple)
