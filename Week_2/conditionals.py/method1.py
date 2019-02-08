@@ -1,13 +1,13 @@
 # Create a method that checks if a number is odd or even and prints the result
 
 
-def check_number(number1)
+def check_number(num1):
 
-
-if number1 % 2 == 0:
-    print("{} => I am an even number".format(number1))
+    if num1 % 2 == 0:
+        print("{} => I am an even number".format(num1))
     else:
-        print("{} => I am an odd number".format(number1))
+        print("{} => I am an odd number".format(num1))
+
 
 check_number(2)
 check_number(19)
